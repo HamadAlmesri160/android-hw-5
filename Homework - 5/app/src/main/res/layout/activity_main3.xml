@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    android:gravity="center"
+    tools:context=".MainActivity2">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:background="@drawable/my_text"
+        android:fontFamily="serif"
+        android:paddingStart="12sp"
+        android:text="Your CV"
+        android:textSize="30sp"
+        tools:ignore="RtlSymmetry" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:background="@drawable/my_text"
+        android:text="Name :" />
+
+    <TextView
+        android:id="@+id/namee"
+        android:layout_width="255dp"
+        android:layout_height="30dp"
+        android:text=""
+        android:layout_marginTop="10dp"
+        android:background="@drawable/my_textview"
+        android:clickable="false"
+        android:ems="10"
+        android:fontFamily="sans-serif-condensed"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        app:lineHeight="10sp" />
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:background="@drawable/my_text"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="Age :" />
+
+    <TextView
+        android:id="@+id/agee"
+        android:layout_width="255dp"
+        android:layout_height="30dp"
+        android:text=""
+        android:layout_marginTop="10dp"
+        android:background="@drawable/my_textview"
+        android:clickable="false"
+        android:ems="10"
+        android:fontFamily="sans-serif-condensed"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        app:lineHeight="10sp" />
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="Job :" />
+
+    <TextView
+        android:id="@+id/jobb"
+        android:layout_width="255dp"
+        android:layout_height="30dp"
+        android:text=""
+        android:layout_marginTop="10dp"
+        android:background="@drawable/my_textview"
+        android:clickable="false"
+        android:ems="10"
+        android:fontFamily="sans-serif-condensed"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        app:lineHeight="10sp" />
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="Phone Number :" />
+
+    <TextView
+        android:id="@+id/numm"
+        android:layout_width="255dp"
+        android:layout_height="30dp"
+        android:text=""
+        android:layout_marginTop="10dp"
+        android:background="@drawable/my_textview"
+        android:clickable="false"
+        android:ems="10"
+        android:fontFamily="sans-serif-condensed"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        app:lineHeight="10sp" />
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_height="wrap_content"
+        android:text="Email :" />
+
+    <TextView
+        android:id="@+id/maill"
+        android:layout_width="255dp"
+        android:layout_height="30dp"
+        android:text=""
+        android:layout_marginTop="10dp"
+        android:background="@drawable/my_textview"
+        android:clickable="false"
+        android:ems="10"
+        android:fontFamily="sans-serif-condensed"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        app:lineHeight="10sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_marginTop="60dp"
+        android:layout_height="55dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/make"
+            android:layout_width="152dp"
+            android:layout_height="49dp"
+
+            android:background="@drawable/my_button_bg"
+            android:text="Make it !!" />
+
+        <Button
+            android:id="@+id/reset"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:background="@drawable/my_textedit"
+            android:text="reset" />
+    </LinearLayout>
+
+</LinearLayout>

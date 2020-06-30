@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_centerHorizontal="true"
+    android:gravity="center"
+    android:background="@drawable/background"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:fontFamily="serif"
+        android:text="CV Maker"
+        android:paddingStart="12sp"
+        android:background="@drawable/my_text"
+        android:textSize="30sp"
+        tools:ignore="RtlSymmetry" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_height="40dp"
+        android:background="@drawable/my_textedit"
+        android:ems="10"
+        android:hint="Your name"
+        android:paddingStart="12sp"
+        android:inputType="text"
+        tools:ignore="RtlSymmetry"
+        android:autofillHints="" />
+
+    <EditText
+        android:id="@+id/age"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/my_textedit"
+        android:ems="10"
+        android:hint="Your age"
+        android:paddingStart="12sp"
+        android:inputType="number"
+        tools:ignore="RtlSymmetry"
+        android:autofillHints="" />
+
+    <EditText
+        android:id="@+id/job"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:background="@drawable/my_textedit"
+        android:ems="10"
+        android:layout_marginTop="15dp"
+        android:hint="Your job"
+        android:inputType="text"
+        android:paddingStart="12sp"
+        android:autofillHints=""
+        tools:ignore="RtlSymmetry" />
+
+    <EditText
+        android:id="@+id/num"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+
+        android:ems="10"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/my_textedit"
+        android:hint="Phone number"
+        android:inputType="number"
+        android:paddingStart="12sp"
+        android:autofillHints=""
+        tools:ignore="RtlSymmetry" />
+
+    <EditText
+        android:id="@+id/mail"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginTop="15dp"
+        android:paddingStart="12sp"
+        android:ems="10"
+        android:background="@drawable/my_textedit"
+        android:hint="Your email"
+        android:inputType="textEmailAddress"
+        android:autofillHints=""
+        tools:ignore="RtlSymmetry" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_marginTop="60dp"
+        android:layout_height="55dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/make"
+            android:layout_width="152dp"
+            android:layout_height="49dp"
+
+            android:background="@drawable/my_button_bg"
+            android:text="Make it !!" />
+
+        <Button
+            android:id="@+id/reset"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:background="@drawable/my_textedit"
+            android:text="reset" />
+    </LinearLayout>
+
+</LinearLayout>
